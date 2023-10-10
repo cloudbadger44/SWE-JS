@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div>
+        <h1 class="nav-header"><a href="index.html">HOME</a></h1>
+      </div>
+      <div class="nav-sec-div">
+        <h3><a href="contact.html">CONTACT</a></h3>
+        <h3><a href="recipe.html">RECIPE</a></h3>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="form-wrapper">
+        <h2 class="form-heading">To Talk Dr. John</h2>
+        <form class="contact-form">
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="Name"
+            class="contact-form-input"
+            id="name"
+          />
+          <input
+            type="email"
+            autocomplete="off"
+            placeholder="Email"
+            class="contact-form-input"
+            id="email"
+          />
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="Subject"
+            class="contact-form-input"
+            id="subject"
+          />
+          <textarea
+            class="contact-form-input contact-form-textarea"
+            placeholder="Message"
+            id="message"
+          ></textarea>
+          <input type="submit" id="submit-btn" class="form-submit-btn" value="Send Request" />
+        </form>
+      </div>
+    </div>
+    <script src="JS/contact.js" defer></script>
+  </body>
+</html>

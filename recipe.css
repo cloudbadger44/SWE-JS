@@ -1,0 +1,87 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav div {
+  display: flex;
+  gap: 20%;
+}
+
+.nav a:hover {
+  color: #ff9800;
+}
+
+.nav-header {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 16px;
+}
+
+#servings {
+  width: 60px;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#update-btn {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#ingredients {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ingredients li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  font-weight: bold;
+  margin-right: 5px;
+}

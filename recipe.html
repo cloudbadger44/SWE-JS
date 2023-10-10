@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Page</title>
+    <link
+      rel="stylesheet"
+      href="css/recipe.css"
+    />
+    <style>
+      /* Global Styles */
+      
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div>
+        <h1 class="nav-header"><a href="index.html">HOME</a></h1>
+      </div>
+      <div class="nav-sec-div">
+        <h3><a href="contact.html">CONTACT</a></h3>
+        <h3><a href="recipe.html">RECIPE</a></h3>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>Adjust Servings</h2>
+      <label for="servings">Servings:</label>
+      <input type="number" id="servings" value="4" />
+      <button id="update-btn">Update</button>
+
+      <h2>Ingredients</h2>
+      <ul id="ingredients">
+        <li><span class="quantity">1</span> cup Ingredient 1</li>
+        <li><span class="quantity">2</span> tsp Ingredient 2</li>
+        <li><span class="quantity">3</span> cloves Ingredient 3</li>
+      </ul>
+    </div>
+
+    <script src="JS/recipe.js" defer></script>
+  </body>
+</html>
+
